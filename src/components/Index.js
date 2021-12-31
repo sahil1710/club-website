@@ -19,7 +19,7 @@ function Index(props) {
           <p className="font">Association of Computer Engineering Students</p>
         </Fade>
 
-        <a href="/club-website/#/home">
+        <a href="/home">
           <Fade delay={2250} duration={500}>
             <div className="btn">Explore</div>
           </Fade>

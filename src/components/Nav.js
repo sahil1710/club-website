@@ -60,35 +60,35 @@ function Nav(props) {
           <Navbar>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="https://sahil1710.github.io/club-website/#/home">
+                <a className="link" href="/club-website/#/home">
                   Home
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="https://sahil1710.github.io/club-website/#/about">
+                <a className="link" href="/club-website/#/about">
                   About Us
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a href="https://sahil1710.github.io/club-website/#/events" className="link">
+                <a href="/club-website/#/events" className="link">
                   Events
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="https://sahil1710.github.io/club-website/#/team">
+                <a className="link" href="/club-website/#/team">
                   Team
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="https://sahil1710.github.io/club-website/#/contact">
+                <a className="link" href="/club-website/#/contact">
                   Contact
                 </a>
               </p>
@@ -128,19 +128,19 @@ function Nav(props) {
           <CustomClose onClick={() => setBurgerStatus(true)} />
         </WrapClose>
         <li>
-          <a href="https://sahil1710.github.io/club-website/#/home">Home</a>
+          <a href="/club-website/#/home">Home</a>
         </li>
         <li>
-          <a href="https://sahil1710.github.io/club-website/#/about">About Us</a>
+          <a href="/club-website/#/about">About Us</a>
         </li>
         <li>
-          <a href="https://sahil1710.github.io/club-website/#/events">Events</a>
+          <a href="/club-website/#/events">Events</a>
         </li>
         <li>
-          <a href="https://sahil1710.github.io/club-website/#/team">Team</a>
+          <a href="/club-website/#/team">Team</a>
         </li>
         <li>
-          <a href="https://sahil1710.github.io/club-website/#/contact">Contact</a>
+          <a href="/club-website/#/contact">Contact</a>
         </li>
       </BurgerNav>
     </Container>

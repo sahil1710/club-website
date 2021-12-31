@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import {HashRouter} from "react-router-dom";
 
 ReactDOM.render(
-  <HashRouter>
+  <HashRouter basename='https://sahil1710.github.io/club-website/#'>
     <App />
   </HashRouter>,
   document.getElementById('root')

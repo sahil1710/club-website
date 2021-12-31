@@ -17,13 +17,13 @@ function App() {
   return (
       <div>
         <Routes>
-          <Route path='https://sahil1710.github.io/' element={<Index />}></Route>
-          <Route path='https://sahil1710.github.io/club-website/#/home' element={<Home />}></Route>
-          <Route path='https://sahil1710.github.io/club-website/#/about' element={<About />}></Route>
-          <Route path='https://sahil1710.github.io/club-website/#/events' element={<Events />}></Route>
-          <Route path='https://sahil1710.github.io/club-website/#/team' element={<Team />}></Route>
-          <Route path='https://sahil1710.github.io/club-website/#/contact' element={<Contact />}></Route>
-        <Route path='https://sahil1710.github.io/club-website/#/events/event' element={<Event />}></Route>
+          <Route path='/' element={<Index />}></Route>
+          <Route path='/home' element={<Home />}></Route>
+          <Route path='/about' element={<About />}></Route>
+          <Route path='/events' element={<Events />}></Route>
+          <Route path='/team' element={<Team />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/events/event' element={<Event />}></Route>
         </Routes>
       </div>
   );

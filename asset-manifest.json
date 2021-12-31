@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/club-website/static/css/main.04c1e96f.css",
-    "main.js": "/club-website/static/js/main.bf656717.js",
+    "main.js": "/club-website/static/js/main.2eb9a23d.js",
     "static/js/787.76826462.chunk.js": "/club-website/static/js/787.76826462.chunk.js",
     "static/media/background.jpg": "/club-website/static/media/background.31bed5cbd33e12a9343c.jpg",
     "static/media/PRO_AR.png": "/club-website/static/media/PRO_AR.b137983a84db3e68c006.png",
@@ -42,11 +42,11 @@
     "static/media/FA_sapan_sir.png": "/club-website/static/media/FA_sapan_sir.8b1331c54b6387e40953.png",
     "index.html": "/club-website/index.html",
     "main.04c1e96f.css.map": "/club-website/static/css/main.04c1e96f.css.map",
-    "main.bf656717.js.map": "/club-website/static/js/main.bf656717.js.map",
+    "main.2eb9a23d.js.map": "/club-website/static/js/main.2eb9a23d.js.map",
     "787.76826462.chunk.js.map": "/club-website/static/js/787.76826462.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04c1e96f.css",
-    "static/js/main.bf656717.js"
+    "static/js/main.2eb9a23d.js"
   ]
 }

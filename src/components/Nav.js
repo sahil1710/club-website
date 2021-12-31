@@ -60,35 +60,35 @@ function Nav(props) {
           <Navbar>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="/club-website/#/home">
+                <a className="link" href="/home">
                   Home
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="/club-website/#/about">
+                <a className="link" href="/about">
                   About Us
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a href="/club-website/#/events" className="link">
+                <a href="/events" className="link">
                   Events
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="/club-website/#/team">
+                <a className="link" href="/team">
                   Team
                 </a>
               </p>
             </NavMenu>
             <NavMenu>
               <p style={menuFont}>
-                <a className="link" href="/club-website/#/contact">
+                <a className="link" href="/contact">
                   Contact
                 </a>
               </p>
@@ -128,19 +128,19 @@ function Nav(props) {
           <CustomClose onClick={() => setBurgerStatus(true)} />
         </WrapClose>
         <li>
-          <a href="/club-website/#/home">Home</a>
+          <a href="/home">Home</a>
         </li>
         <li>
-          <a href="/club-website/#/about">About Us</a>
+          <a href="/about">About Us</a>
         </li>
         <li>
-          <a href="/club-website/#/events">Events</a>
+          <a href="/events">Events</a>
         </li>
         <li>
-          <a href="/club-website/#/team">Team</a>
+          <a href="/team">Team</a>
         </li>
         <li>
-          <a href="/club-website/#/contact">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
       </BurgerNav>
     </Container>

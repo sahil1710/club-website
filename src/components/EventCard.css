@@ -1,0 +1,27 @@
+.our-event {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  /* background-color: #f7f5ec; */
+  background-color: #1f2833;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height:auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.event-btn {
+  display: flex;
+  color: #0b0c10;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 120px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border-radius: 200px;
+  background: #7b68ee;
+}

@@ -1,0 +1,94 @@
+
+#members img{
+    margin-top: -70px;
+}
+
+#about i{
+    background-color: rgb(63, 63, 63);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#aces img{
+    height : 50vh;
+}
+
+#team img{
+    height : 50vh;
+}
+
+#home-section{
+    /* background: url('../images/aces.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    width: 100%;
+}
+
+#home-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    min-height: 700px;
+}
+
+#title{
+    color: white;
+    background-color: black;
+}
+
+#aside{
+    background-color: rgb(66, 66, 66);
+}
+
+#subscribe .input-group-prepend{
+    background-color: black;
+    opacity: 0.5;
+    color : white
+}
+
+#subscribe .subscribe-inputs{
+    background-color: black;
+    opacity: 0.7;
+}
+
+#contact{
+    width: 90%;
+    margin: auto;
+}
+
+.color {
+    background-color: #00b8b8;
+    height:48px
+}
+
+.color-text {
+    background-color: #00b8b8;
+    height:78px
+}
+
+.btn-con {
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 40px;
+    margin-top: 25px;
+    border-radius: 200px;
+    background: #7b68ee;
+  }
+
+.col-img{
+    display:block;
+}
+
+@media(max-width: 990px){
+    .col-img{
+        display: none;
+    }
+}

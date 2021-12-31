@@ -29,7 +29,7 @@ function EventCard() {
               </Button>
               <Button>
                 <Fade delay={200} duration={500}>
-                  <div className="event-btn"><a href="/club-website/#/events/event">More </a></div>
+                  <div className="event-btn"><a href="https://sahil1710.github.io/club-website/#/events/event">More </a></div>
                 </Fade>
               </Button>
               </WrapButton>

@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "./Contact.css";
-import image from './images/aces.png'
+import image from './images/aces.webp'
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import EmailIcon from "@mui/icons-material/Email";
 import CreateIcon from "@mui/icons-material/Create";
@@ -13,6 +13,7 @@ function Contact() {
     <div>
       <Nav isNotIndex />
 
+<Container>
       <WrapBox>
           <div className="row">
             <div className="col-lg-9">
@@ -84,12 +85,17 @@ function Contact() {
             </div>
           </div>
       </WrapBox>
+      </Container>
       <Footer />
     </div>
   );
 }
 
 export default Contact;
+
+const Container = styled.div`
+margin-top:60px;
+`
 
 const Wrap = styled.div`
   margin-top: 10px;

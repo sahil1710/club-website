@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./Footer.css";
 import styled from "styled-components";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -12,29 +12,27 @@ function Footer() {
   return (
     <div>
       <footer>
-        <span className="border-shape"></span>
+        {/* <span className="border-shape"></span> */}
         <div className="bottom_content">
-          <section>
-            <a href="#">
+            <a href="">
               <Facebook />
             </a>
-            <a href="#">
+            <a href="">
               <InstagramIcon />
             </a>
-            <a href="#">
+            <a href="">
               <Twitter />
             </a>
-            <a href="#">
+            <a href="">
               <LinkedIn />
             </a>
-            <a href="#">
+            <a href="">
               <Reddit />
             </a>
 
-            <a href="#">
+            <a href="">
               <Email />
             </a>
-          </section>
         </div>
         <div className="copyright">
           Copyright © 2021 StartNU - All rights reserved

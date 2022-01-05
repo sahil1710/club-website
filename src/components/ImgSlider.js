@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 import styled from 'styled-components'
-import webaces from './images/webaces.jpeg'
-import logo from './images/logo-3.png'
+import webaces from './images/webaces.webp'
+import logo from './images/logo-3.webp'
 
 function ImgSlider() {
     const settings = {

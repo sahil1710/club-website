@@ -3,24 +3,24 @@ import Nav from "./Nav";
 import Footer from "./Footer"
 import Card from "./Card";
 import styled from "styled-components";
-import ps from "./images/team/FA_pooja_shah.png";
-import sm from "./images/team/FA_sapan_sir.png";
-import KS from "./images/team/PRE_KS.png";
-import MV from "./images/team/VC-MV.png";
-import KT from "./images/team/GS_KJ.png";
-import NT from "./images/team/MD-NT.png";
-import SC from "./images/team/MD_SC.png";
-import AS from "./images/team/OS_AS.png";
-import MS from "./images/team/DG-MS.png";
-import SP from "./images/team/TH_SP.png";
-import YT from "./images/team/TH_YT.png";
-import KM from "./images/team/TRE_KM.png";
-import YS from "./images/team/ED-YS.png";
-import SG from "./images/team/CH_GS.png";
-import AR from "./images/team/PRO_AR.png";
-import ASGD from "./images/team/GD-AS.png";
-import SV from "./images/team/MC-SV.png";
-import MP from "./images/team/JS_MP.png";
+import ps from "./images/team/FA_pooja_shah.webp";
+import sm from "./images/team/FA_sapan_sir.webp";
+import KS from "./images/team/PRE_KS.webp";
+import MV from "./images/team/VC-MV.webp";
+import KT from "./images/team/GS_KJ.webp";
+import NT from "./images/team/MD-NT.webp";
+import SC from "./images/team/MD_SC.webp";
+import AS from "./images/team/OS_AS.webp";
+import MS from "./images/team/DG-MS.webp";
+import SP from "./images/team/TH_SP.webp";
+import YT from "./images/team/TH_YT.webp";
+import KM from "./images/team/TRE_KM.webp";
+import YS from "./images/team/ED-YS.webp";
+import SG from "./images/team/CH_GS.webp";
+import AR from "./images/team/PRO_AR.webp";
+import ASGD from "./images/team/GD-AS.webp";
+import SV from "./images/team/MC-SV.webp";
+import MP from "./images/team/JS_MP.webp";
 import Fade from 'react-reveal/Fade'
 
 function Team() {
@@ -204,6 +204,7 @@ function Team() {
 
   return (
     <div>
+      <Wrap>
       <Nav isNotIndex />
       <Fade delay={750} duration={500}>
       <Heading>
@@ -233,7 +234,7 @@ function Team() {
       </Heading>
       </Fade>
 
-      <Fade bottom duration={1500}>
+      
       <Container>
         {team.map((member) => (
           <WrapCard>
@@ -248,7 +249,8 @@ function Team() {
           </WrapCard>
         ))}
       </Container>
-      </Fade>
+      </Wrap>
+      
      <Fade duration={1500}>
       <Footer />
       </Fade>
@@ -257,6 +259,10 @@ function Team() {
 }
 
 export default Team;
+
+const Wrap = styled.div`
+margin-top:60px;
+`
 
 const Container = styled.div`
   display: flex;

@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import "./Event.css";
-import image from "./images/nirma.png";
+import image from "./images/pythonai.webp";
 import styled from "styled-components";
 import Footer from "./Footer";
 
@@ -22,6 +22,7 @@ function Event() {
     
     <div>
       <Nav isNotIndex/>
+      <Wrap>
       <div className="event-container">
         <div className="img-div">
           <div>
@@ -73,12 +74,21 @@ function Event() {
           {/* </Details> */}
         </div>
       </div>
+      </Wrap>
       <Footer />
     </div>
   );
 }
 
 export default Event;
+
+const Wrap = styled.div`
+  margin-top: 100px;
+
+  @media(max-width:968px){
+    margin-top:80px;
+  }
+`;
 
 // const Details = styled.div`
 //   display: flex;

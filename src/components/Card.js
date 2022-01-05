@@ -27,31 +27,31 @@ function Card(props) {
               <h4 className="title">{props.position}</h4>
               <Social>
                 <WrapSocial>
-                  <a href="#" target="blank_">
+                  <a href="" target="blank_">
                     <Facebook />
                   </a>
                 </WrapSocial>
 
                 <WrapSocial>
-                  <a href="#" target="blank_">
+                  <a href="" target="blank_">
                     <LinkedIn />
                   </a>
                 </WrapSocial>
 
                 <WrapSocial>
-                  <a href="#" target="blank_">
+                  <a href="" target="blank_">
                     <Twitter />
                   </a>
                 </WrapSocial>
 
                 <WrapSocial>
-                  <a href="#" target="blank_">
+                  <a href="" target="blank_">
                     <Reddit />
                   </a>
                 </WrapSocial>
 
                 <WrapSocial>
-                  <a href="#" target="blank_">
+                  <a href="" target="blank_">
                     <Email />
                   </a>
                 </WrapSocial>
@@ -105,7 +105,10 @@ const Social = styled.div`
 
 const WrapSocial = styled.div`
   a {
-    color: white;
+    color: rgba(255,255,255,0.7);
+  }
+  a:hover{
+    color: rgb(255,255,255);
   }
 `;
 

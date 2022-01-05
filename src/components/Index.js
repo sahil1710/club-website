@@ -3,8 +3,9 @@ import styled from "styled-components";
 import "./Index.css";
 import Nav from "./Nav";
 import Zoom from "react-reveal/Zoom";
-import image from "./images/logo-3.png";
+import image from "./images/logo-3.webp";
 import { Fade } from "react-reveal";
+import { NavLink } from "react-router-dom";
 
 function Index(props) {
 
@@ -19,11 +20,11 @@ function Index(props) {
           <p className="font">Association of Computer Engineering Students</p>
         </Fade>
 
-        <a href="/home">
+        <NavLink to='/home'>
           <Fade delay={2250} duration={500}>
             <div className="btn">Explore</div>
           </Fade>
-        </a>
+          </NavLink>
       </div>
     </Container>
   );

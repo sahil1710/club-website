@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
 import "./About.css";
-import background from "./images/background.jpg";
-import vision from "./images/vision.png";
-import mission from "./images/mission.png";
-import aces from "./images/aces.png";
-import nirma from "./images/nirma.png";
+import background from "./images/background.webp";
+import vision from "./images/vision.webp";
+import mission from "./images/mission.webp";
+import aces from "./images/aces.webp";
+import nirma from "./images/nirma.webp";
 import styled from "styled-components";
 import Footer from "./Footer";
 import Fade from "react-reveal/Fade";
@@ -13,11 +13,11 @@ import Slide from "react-reveal/Slide";
 
 function About() {
   return (
-    <div>
-      <Fade duration={1500}>
+    <Container>
+      
         <Nav isNotIndex />
-
-        <Wrap>
+        {/* <Wrap> */}
+        <Wrapback>
           <div id="#home-section">
             <div className="dark-overlay">
               <div className="home-inner container">
@@ -101,10 +101,10 @@ function About() {
                           />
                         </div>
                         <div
-                          className="btn btn-outline-dark about-btn btn-block text-light mt-5"
+                          className="btn-outline-dark about-btn  mt-5"
                           type="submit"
                         >
-                          <h4>Join Now</h4>
+                          <p>Join Now</p>
                         </div>
                       </div>
                     </section>
@@ -113,7 +113,7 @@ function About() {
               </div>
             </div>
           </div>
-        </Wrap>
+        </Wrapback>
 
         <section id="about">
           <div className="container mt-5">
@@ -234,21 +234,26 @@ function About() {
             </section>
           </div>
         </section>
+        {/* </Wrap> */}
 
         <Footer />
-      </Fade>
-    </div>
+        
+      </Container>
   );
 }
 
 export default About;
 
+const Container = styled.div`
+z-index: -10 !important;
+`
 const Wrap = styled.div`
+  margin-top: 100px;
+`;
+const Wrapback = styled.div`
   background-image: url(${background});
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: -5;
-
-  margin-top: 15px;
 `;

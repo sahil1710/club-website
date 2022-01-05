@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Event from "./Event";
-import image from "./images/nirma.png";
+import image from "./images/nirma.webp";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +16,7 @@ function Events() {
     <div>
       <Nav isNotIndex />
       {/* <Event /> */}
+      <Wrap>
       <Heading>
           <h1>Current Events</h1>
       </Heading>
@@ -54,12 +55,16 @@ function Events() {
       <Routes>
         <Route path='/events/event' element={<Event />}></Route>
       </Routes>
+      </Wrap>
     </div>
   );
 }
 
 export default Events;
 
+const Wrap = styled.div`
+margin-top:60px;
+`
 
 const Container = styled.div`
   display: flex;

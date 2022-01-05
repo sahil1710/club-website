@@ -2,7 +2,7 @@ import React from 'react'
 import './EventCard.css'
 import styled from 'styled-components'
 import { Fade } from 'react-reveal'
-import image from "./images/pythonai.jpg";
+import image from "./images/pythonai.webp";
 
 function EventCard() {
     return (
@@ -29,7 +29,7 @@ function EventCard() {
               </Button>
               <Button>
                 <Fade delay={200} duration={500}>
-                  <div className="event-btn"><a href="/events/event">More </a></div>
+                  <div className="event-btn"><a href="#/events/event">More </a></div>
                 </Fade>
               </Button>
               </WrapButton>
@@ -55,10 +55,10 @@ img{
 const WrapButton = styled.div`
 display: flex;
 justify-content: center;
+a{
+  color:white;
+}
 `
-
-
-
 
 const Heading = styled.div`
 display: flex;
